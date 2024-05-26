@@ -1,0 +1,16 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Person",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7044
+        }
+      ],
+      "UpstreamPathTemplate": "/Person",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ]
+}
